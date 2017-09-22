@@ -1,0 +1,9 @@
+{application,schedule_tweet,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"schedule_tweet"},
+              {modules,['Elixir.ScheduleTweet',
+                        'Elixir.ScheduleTweet.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]},
+              {mod,{'Elixir.ScheduleTweet.Application',[]}}]}.
