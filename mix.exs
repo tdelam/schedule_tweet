@@ -23,7 +23,7 @@ defmodule ScheduleTweet.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.8.6"},
-      {:quantum, "~> 2.1"}
+      {:quantum, "~> 1.8"}
     ]
   end
 end
