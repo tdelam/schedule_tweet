@@ -1,0 +1,4 @@
+Line 1
+Line 2
+A super duper long string has o exist here so we know that the 140 character condition is being met when we run the code. If it does match, then this line will not appear in the output, this is required because tweets can be max 140 characters.
+A third line

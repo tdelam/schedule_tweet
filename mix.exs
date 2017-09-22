@@ -14,7 +14,7 @@ defmodule ScheduleTweet.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
+      extra_applications: [:logger, :quantum],
       mod: {ScheduleTweet.Application, []}
     ]
   end
@@ -22,7 +22,8 @@ defmodule ScheduleTweet.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:credo, "~> 0.8.6"}
+      {:credo, "~> 0.8.6"},
+      {:quantum, "~> 2.1"}
     ]
   end
 end
