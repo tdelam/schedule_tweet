@@ -14,7 +14,7 @@ defmodule ScheduleTweet.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :quantum],
+      extra_applications: [:logger, :quantum, :extwitter],
       mod: {ScheduleTweet.Application, []}
     ]
   end
@@ -23,7 +23,9 @@ defmodule ScheduleTweet.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.8.6"},
-      {:quantum, "~> 1.8"}
+      {:quantum, "~> 1.8"},
+      {:extwitter, "~> 0.7.2"},
+      {:oauth, github: "tim/erlang-oauth"}
     ]
   end
 end
