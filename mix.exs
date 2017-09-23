@@ -25,7 +25,9 @@ defmodule ScheduleTweet.Mixfile do
       {:credo, "~> 0.8.6"},
       {:quantum, "~> 1.8"},
       {:extwitter, "~> 0.7.2"},
-      {:oauth, github: "tim/erlang-oauth"}
+      {:oauth, github: "tim/erlang-oauth"},
+      {:mock, "~> 0.3.1"},
+      {:mix_test_watch, "~> 0.5.0"}
     ]
   end
 end
